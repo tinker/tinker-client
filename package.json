@@ -3,7 +3,7 @@
 	"version": "0.0.1-dev",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/tinker/tinker-ui.git"
+		"url": "https://github.com/tinker/tinker-client.git"
 	},
 	"author": "Chiel Kunkels <chiel@kunkels.me> (@chielkunkels)",
 	"license": "MIT",

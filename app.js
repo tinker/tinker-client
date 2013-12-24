@@ -24,6 +24,7 @@ if (app.settings.env == 'development'){
 app.get('/', function(req, res){
 	var locals = {
 		env: app.settings.env,
+		layouts: config.layouts,
 		options: {
 			urls: config.urls
 		}

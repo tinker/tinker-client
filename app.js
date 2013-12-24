@@ -3,7 +3,8 @@
 var express = require('express'),
 	swig = require('swig'),
 	cons = require('consolidate'),
-	config = require('./lib/config');
+	config = require('./lib/config'),
+	argv = require('optimist').argv;
 
 if (!config.load(__dirname + '/config.json')){
 	console.log('Failed to load config file');
@@ -31,8 +32,8 @@ app.get('/', function(req, res){
 	res.render('index', locals);
 });
 
-
-app.listen(4000, function(){
-	console.log('Listening on port 4000');
+var port = parseInt(argv.p, 10) || config.port || 3000;
+app.listen(port, function(){
+	console.log('Listening on port %d', port);
 });
 

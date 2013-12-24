@@ -12,6 +12,7 @@
 		"express": "3.4",
 		"consolidate": "0.9",
 		"swig": "1.1",
-		"prime": "0.3"
+		"prime": "0.3",
+		"optimist": "0.6"
 	}
 }

@@ -1,5 +1,6 @@
 {
+	"port": 3000,
 	"urls": {
-		"sandbox": "http://localhost:4001/"
+		"sandbox": "http://localhost:3001/"
 	}
 }

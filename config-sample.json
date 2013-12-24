@@ -1,7 +1,8 @@
 {
 	"port": 3000,
 	"urls": {
-		"sandbox": "http://localhost:3001/"
+		"api": "http://localhost:3002",
+		"sandbox": "http://localhost:3001"
 	},
 	"layouts": [{
 		"cols": [0, 33, 67],

@@ -18,6 +18,9 @@
 				tinker.layouts.register({{ layout|json|safe }});
 			{% endfor %}
 			tinker.init({{ options|json|safe }});
+			{% if tinker %}
+				tinker.bundles.load({{ tinker|json|safe }});
+			{% endif %}
 		</script>
 	</body>
 </html>

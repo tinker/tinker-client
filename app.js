@@ -61,4 +61,3 @@ var port = parseInt(argv.p, 10) || config.port || 3000;
 app.listen(port, function(){
 	console.log('Listening on port %d', port);
 });
-
